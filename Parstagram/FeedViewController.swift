@@ -41,6 +41,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
        }
        
        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+           print("Amount of Posts:")
+           print(posts.count)
            return posts.count
        }
        
